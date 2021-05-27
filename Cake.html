@@ -8,10 +8,12 @@
     <script>
         console.log('this is cake.html');
         var answer = prompt('do you want some cake?');
-        if(answer = 'yes'){
+        if(answer === 'yes'){
             console.log('have some cake');
-        } else {
+        } else if (answer === 'no') {
             console.log('no cake for you')
+        } else {
+            console.log('i dont understand')
         }
     </script>
 <body>
